@@ -8,13 +8,13 @@ Jihoo Lee
 
 The URL of your live GitHub Pages site. L'URL de la version en ligne de votre site sur GitHub Pages.
 
-https://jsmarier.github.io/Template-for-the-Website-Project/
+https://jsmarier-courses.github.io/project-1-jihoo1228/
 
 ##CSS:
 
-1. I used crimson as a colour for my h1 headings.
-2. J'ai ajouté une classe h2-bleu à certains titres de niveau 2 et ai modifié la feuille CSS pour les rendre bleus.
-3. I changed the background colour from whitesmoke to darkblue.
-4. J'ai mis Arial comme police par défaut pour tous les paragraphes.
-5. I used a font size of 18px in my paragraphs.
+1. I changed the text font.
+2. I create the table.
+3. I changed the font size.
+4. I added some photos.
+5. I change the color.
 6. Etc.
