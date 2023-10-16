@@ -1,8 +1,10 @@
 html, body {
-    margin: 0;
+    margin: 3;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family:'Archivo Black', sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: large;
 }
 
 body {
@@ -17,16 +19,16 @@ body {
 }
 
 .logo {
-   font-size: 30px;
-   position: absolute;
+   font-size: 50px;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: #000000;
    font-weight: bold;
+   text-align: center;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: #000000;
    position: absolute;
    top: 85px;
    z-index: 2;
@@ -45,17 +47,17 @@ body {
 }
 
 .top-menu li a:link, .top-menu li a:visited {
-    color: white;
+    color: rgb(77, 75, 75);
     text-decoration: none;
     padding: 20px 20px 20.5px 20px;
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: #ffffff;
 }
 
 .page-content {
@@ -89,7 +91,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:#292828;
 }
 
 .footer-content {
@@ -100,4 +102,40 @@ body {
 .footer-content a:link {
     color: white;
     text-decoration: none;
+}
+
+.intro_text {
+    font-size:large;
+    color: black;
+    text-align: center;
+}
+
+.main_text0 {
+    text-align: center;
+    font-size: large;
+    color: #000000;
+    padding-bottom: 116px;
+}
+
+.icons {
+    display: flex;
+    width: 920px;
+    margin:auto;
+}
+
+.icons > li {
+    flex:1;
+    height: 300px;
+    background-color: rgb(206, 206, 206);
+    margin-top: 40px;
+}
+
+.icons > li:not(:last-child){
+    margin-right: 20px;
+}
+
+.icons .contents1 {
+    width:200px;
+    text-align: center;
+    margin:auto;
 }
